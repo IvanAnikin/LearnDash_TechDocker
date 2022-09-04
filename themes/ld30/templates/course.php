@@ -109,7 +109,7 @@ $has_lesson_quizzes = learndash_30_has_lesson_quizzes( $course_id, $lessons ); ?
 		if ( false === strstr( $content, $shown_content_key ) ) {
 			$shortcode_out = do_shortcode( '[ld_infobar course_id="' . $course_id . '" user_id="' . $user_id . '" post_id="' . get_the_ID() . '"]' );
 			if ( ! empty( $shortcode_out ) ) {
-				echo $shortcode_out;
+				//echo $shortcode_out;
 			}
 		}
 	} else {
@@ -189,7 +189,7 @@ $has_lesson_quizzes = learndash_30_has_lesson_quizzes( $course_id, $lessons ); ?
 					<?php
 					printf(
 						// translators: placeholder: Course.
-						esc_html_x( '%s Content', 'placeholder: Course', 'learndash' ),
+						esc_html_x( '%s Content', 'placeholder: Solution', 'learndash' ),
 						LearnDash_Custom_Label::get_label( 'course' ) // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Method escapes output
 					);
 					?>

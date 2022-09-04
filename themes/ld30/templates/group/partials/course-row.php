@@ -75,7 +75,7 @@ $course_class = apply_filters(
 	<div class="ld-item-list-item-preview">
 
 		<a href="<?php echo esc_url( get_the_permalink( $course_id ) ); ?>" class="ld-item-name">
-			<?php learndash_status_icon( $status, get_post_type(), null, true ); ?>
+			<!-- learndash_status_icon( $status, get_post_type(), null, true ); -->
 			<span class="ld-course-title"><?php echo esc_html( get_the_title( $course_id ) ); ?></span>
 		</a> <!--/.ld-course-name-->
 

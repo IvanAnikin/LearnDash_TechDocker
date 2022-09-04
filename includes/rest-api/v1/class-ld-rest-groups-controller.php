@@ -212,7 +212,7 @@ if ( ( ! class_exists( 'LD_REST_Groups_Controller_V1' ) ) && ( class_exists( 'LD
 					'href' => rest_url( trailingslashit( $base ) . $post->ID . '/leaders' ),
 				),
 				'courses' => array(
-					'href' => rest_url( trailingslashit( $base ) . $post->ID . '/courses' ),
+					'href' => rest_url( trailingslashit( $base ) . $post->ID . '/solutions' ),
 				),
 			);
 			$response->add_links( $links );

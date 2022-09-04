@@ -69,7 +69,7 @@ if ( ( ! class_exists( 'LD_REST_Users_Courses_Controller_V1' ) ) && ( class_exis
 
 			register_rest_route(
 				$this->namespace,
-				'/' . $this->rest_base . '/(?P<id>[\d]+)/courses/',
+				'/' . $this->rest_base . '/(?P<id>[\d]+)/solutions/',
 				array(
 					'args'   => array(
 						'id' => array(
